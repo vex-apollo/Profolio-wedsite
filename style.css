@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.profile {
+    width: 275px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    width: 100%;
+    
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    
+    display: table;
+    
+}
+.links{
+    font-family: 'Akaya Telivigala', cursive;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.taskbar{
+    font-family: 'Akaya Telivigala', cursive;
+    position:absolute;top: 10px;
+    z-index: 10;
+    right: 30px;
+    cursor: pointer;
+    
+    
+}
+
+.links:hover{
+    
+    background-color: paleturquoise;
+        font-size:22px;
+    
+}
+
+
+
+
+
+h1 {
+
+    font-size: 40px;
+    line-height: 1.0;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+    #bio {
+
+        padding: 50px;
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .line {
+        height: 10px;
+        background-color: #000;
+        width: 80px;
+        margin: 50px auto;
+    }
+
+
+    p {
+        max-width: 450px;
+        margin: 25px auto;
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    .inner {
+
+        display: table-cell;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
